@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./refine -x -Dbutterfly.modules.path=modules,../../extensions,/path/to/your/extension
