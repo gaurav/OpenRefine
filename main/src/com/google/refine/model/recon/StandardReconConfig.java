@@ -383,7 +383,7 @@ public class StandardReconConfig extends ReconConfig {
         try {
             int length = results.length();
             int count = 0;
-            for (int i = 0; i < length && count < 3; i++) {
+            for (int i = 0; i < length && count < 300; i++) {
                 JSONObject result = results.getJSONObject(i);
                 if (!result.has("name")) {
                     continue;
